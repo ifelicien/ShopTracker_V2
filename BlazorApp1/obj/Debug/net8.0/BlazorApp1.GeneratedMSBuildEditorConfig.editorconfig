@@ -26,16 +26,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/C\#_Training/BlazorApp1/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[G:/C\#_Training/BlazorApp1/Pages/Customer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/C\#_Training/BlazorApp1/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/C\#_Training/BlazorApp1/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[G:/C\#_Training/BlazorApp1/Pages/Vehicle.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/C\#_Training/BlazorApp1/_Imports.razor]
