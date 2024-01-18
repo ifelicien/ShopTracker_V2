@@ -1,103 +1,76 @@
-﻿@* fix this page, should contain vehicle info not customer info *@
+﻿@page "/Vehicle"
 
-@page "/vehicleInfo"
+<PageTitle>Vehicle Information</PageTitle>
 
-<PageTitle>Customer Information</PageTitle>
-
-<h1>Customer Information</h1><br><br>
-<label for="fname">First Name:</label> <input type="text" id="fname" name="fname">
-<label for="lname">Last Name:</label> <input type="text" id="lname" name="lname"><br><br>
-<label for="customerAddress">Address:</label> <input type="text" id="customerAddress" name="customerAddress">
-<label for="city">City:</label> <input type="text" id="city" name="city">
-<label for="state">State:</label> <input type="text" id="state" name="state"><br><br>
-<label for="email">Email:</label> <input type="email" id="email" name="email">
-<label for="phoneNumber">Phone Number:</label> <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
-<label for="insCompany">Insurance Company:</label> <input type="text" id="insCompany" name="insCompany">
-<label for="insPolicyNum">Policy Number:</label> <input type="text" id="insPolicyNum" name="insPolicyNum"><br><br>
+<h1>Vehicle Information</h1><br><br>
+<label for="year">Year:</label> <input type="text" id="year" name="year">
+<label for="make">Make:</label> <input type="text" id="make" name="make"><br><br>
+<label for="model">Model:</label> <input type="text" id="model" name="model">
+<label for="color">Color:</label> <input type="text" id="color" name="color">
+<label for="vin">VIN:</label> <input type="text" id="vin" name="vin"><br><br>
+<label for="Description">Description:</label> <input type="Description" id="Description" name="Description">
 
 
 @* <button class="btn btn-primary" @onclick="IncrementCount">Submit</button> *@
 
 @code {
     class customer{
-        private string fname;
-        private string lname;
-        private string customerAddress;
-        private string city;
-        private string state;
-        private string email;
-        private string phoneNumber;
-        private string insCompany;
-        private string insPolicyNum;
+        private string year;
+        private string make;
+        private string model;
+        private string color;
+        private string vin;
+        private string Description;
     
 
-    public customer(string fname, string lname, string phoneNumber, string customerAddress, string email, string insuranceName, string policyNum){
-                this.setFirstName(fname);
-                this.setLastName(lname);
-                this.setCustomerAddress(customerAddress);
-                this.setCity(city);
-                this.setState(state);
-                this.setEmail(email);
-                this.setPhoneNumber(phoneNumber);
-                this.setInsCompany(insCompany);
-                this.setInsPolicyNum(insPolicyNum);
+    public customer(string year, string make, string phoneNumber, string model, string Description, string insuranceName, string policyNum){
+                this.setYear(year);
+                this.setMake(make);
+                this.setModel(model);
+                this.setColor(color);
+                this.setVin(vin);
+                this.setDescription(Description);
+                
         }
         //getters
-        public string getFName(){
-            return fname;
+        public string getYear(){
+            return year;
         }
-        public string getLName(){
-            return lname;
+        public string getMake(){
+            return make;
         }
-        public string getCustomerAddress(){
-            return customerAddress;
+        public string getModel(){
+            return model;
         }
-        public string getCity(){
-            return city;
+        public string getColor(){
+            return color;
         }
-        public string getState(){
-            return state;
+        public string getVin(){
+            return vin;
         }
-        public string getEmail(){
-            return email;
+        public string getDescription(){
+            return Description;
         }
-        public string getPhoneNumber(){
-            return phoneNumber;
-        }
-        public string getinsCompany(){
-            return insCompany;
-        }
-        public string getInsPolicyNum(){
-            return insPolicyNum;
-        }
+        
 
             //setters
-        public void setFirstName(string newFName){
-            this.fname = newFName;
+        public void setYear(string newFName){
+            this.year = newFName;
         }
-        public void setLastName(string newLName){
-            this.lname = newLName;
+        public void setMake(string newLName){
+            this.make = newLName;
         }
-        public void setCustomerAddress(string newCustomerAddress){
-            this.customerAddress = newCustomerAddress;
+        public void setModel(string newCustomerAddress){
+            this.model = newCustomerAddress;
         }
-        public void setCity(string newCity){
-            this.city = newCity;
+        public void setColor(string newCity){
+            this.color = newCity;
         }
-        public void setState(string newState){
-            this.state = newState;
+        public void setVin(string newState){
+            this.vin = newState;
         }
-        public void setEmail(string newEmail){
-            this.email = newEmail;
-        }
-        public void setPhoneNumber(string newPhoneNumber){
-            this.phoneNumber = newPhoneNumber;
-        }
-        public void setInsCompany(string newInsCompany){
-            this.insCompany = newInsCompany;
-        }
-        public void setInsPolicyNum(string newInsPolicyNumber){
-            this.insPolicyNum = newInsPolicyNumber;
+        public void setDescription(string newEmail){
+            this.Description = newEmail;
         }
     }
 }
