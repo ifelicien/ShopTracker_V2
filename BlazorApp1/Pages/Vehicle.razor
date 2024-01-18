@@ -8,6 +8,7 @@
 <label for="model">Model:</label> <input type="text" id="model" name="model">
 <label for="color">Color:</label> <input type="text" id="color" name="color">
 <label for="vin">VIN:</label> <input type="text" id="vin" name="vin"><br><br>
+<label for="mileage">Mileage:</label> <input type="text" id="mileage" name="mileage">
 <label for="Description">Description:</label> <input type="Description" id="Description" name="Description">
 
 
@@ -20,6 +21,7 @@
         private string model;
         private string color;
         private string vin;
+        private string mileage;
         private string Description;
     
 
@@ -29,6 +31,7 @@
                 this.setModel(model);
                 this.setColor(color);
                 this.setVin(vin);
+                this.setMileage(mileage);
                 this.setDescription(Description);
                 
         }
@@ -47,6 +50,9 @@
         }
         public string getVin(){
             return vin;
+        }
+        public string getMileage(){
+            return mileage;
         }
         public string getDescription(){
             return Description;
@@ -69,8 +75,12 @@
         public void setVin(string newState){
             this.vin = newState;
         }
+        public void setMileage(string newMileage){
+            this.mileage = newMileage;
+        }
         public void setDescription(string newEmail){
             this.Description = newEmail;
         }
+        
     }
 }
