@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6TO8Yhv67LIjVhyzuoPdpgvAfuaS/lcS4pSX6fqETpJhBcmhesRxxRFfgFa04PbNYyCrGlXDAtJTOa79lJ6v5g==",
+  "dgSpecHash": "664EuRqz4IPt70vjs/8B1bIwboEwNlaMZfRlvoH4yVOgYxmWV4ZpXeygp5uLMAdHIq/XnkQQ3lhUlgEBEHehzQ==",
   "success": true,
-  "projectFilePath": "G:\\C#_Training\\BlazorApp1\\BlazorApp1.csproj",
+  "projectFilePath": "D:\\.vscode\\C#\\ShopTracker_V2\\BlazorApp1\\BlazorApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeli\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.1\\microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
     "C:\\Users\\ifeli\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.1\\microsoft.aspnetcore.components.8.0.1.nupkg.sha512",

@@ -1,0 +1,76 @@
+﻿@page "/Vehicle"
+
+<PageTitle>Vehicle Information</PageTitle>
+
+<h1>Vehicle Information</h1><br><br>
+<label for="year">Year:</label> <input type="text" id="year" name="year">
+<label for="make">Make:</label> <input type="text" id="make" name="make"><br><br>
+<label for="model">Model:</label> <input type="text" id="model" name="model">
+<label for="color">Color:</label> <input type="text" id="color" name="color">
+<label for="vin">VIN:</label> <input type="text" id="vin" name="vin"><br><br>
+<label for="Description">Description:</label> <input type="Description" id="Description" name="Description">
+
+
+@* <button class="btn btn-primary" @onclick="IncrementCount">Submit</button> *@
+
+@code {
+    class customer{
+        private string year;
+        private string make;
+        private string model;
+        private string color;
+        private string vin;
+        private string Description;
+    
+
+    public customer(string year, string make, string phoneNumber, string model, string Description, string insuranceName, string policyNum){
+                this.setYear(year);
+                this.setMake(make);
+                this.setModel(model);
+                this.setColor(color);
+                this.setVin(vin);
+                this.setDescription(Description);
+                
+        }
+        //getters
+        public string getYear(){
+            return year;
+        }
+        public string getMake(){
+            return make;
+        }
+        public string getModel(){
+            return model;
+        }
+        public string getColor(){
+            return color;
+        }
+        public string getVin(){
+            return vin;
+        }
+        public string getDescription(){
+            return Description;
+        }
+        
+
+            //setters
+        public void setYear(string newFName){
+            this.year = newFName;
+        }
+        public void setMake(string newLName){
+            this.make = newLName;
+        }
+        public void setModel(string newCustomerAddress){
+            this.model = newCustomerAddress;
+        }
+        public void setColor(string newCity){
+            this.color = newCity;
+        }
+        public void setVin(string newState){
+            this.vin = newState;
+        }
+        public void setDescription(string newEmail){
+            this.Description = newEmail;
+        }
+    }
+}
